@@ -54,10 +54,10 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Size Chart",
+            "heading": "Size Guide",
             "icon": "ruler",
             "content": "",
-            "page": "{{ product.metafields.custom.size_chart.value }}"
+            "page": "{{ product.metafields.custom.size_guide.value }}"
           }
         },
         "collapsible-row-1": {
