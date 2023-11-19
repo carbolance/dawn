@@ -966,6 +966,8 @@ class VariantSelects extends HTMLElement {
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
+    this.filterImgVariant();
+
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
@@ -976,6 +978,10 @@ class VariantSelects extends HTMLElement {
       this.renderProductInfo();
       this.updateShareUrl();
     }
+  }
+
+  filterImgVariant() {
+    console.log("thumbnail updated", this.currentVariant)
   }
 
   updateOptions() {
