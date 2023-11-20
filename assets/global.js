@@ -981,17 +981,20 @@ class VariantSelects extends HTMLElement {
   }
 
   filterImgVariant() {
-    console.log("thumbnail updated", this.currentVariant)
+    console.log("thumbnail updated", this.currentVariant);
+    const thumbnailEIs = document.querySelectorAll('[thumbnail-alt]');
     if (this.currentVariant.featured_media && this.currentVariant.featured_media.alt) {
       // show only the thumbnails for the selected color
       // [thumbnail-alt = 'red']
-      document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'none')
-      const currentImgAlt = this.currentVariant.featured_media.alt
-      const thumbnailSelector = `[thumbnail-alt = '${currentImgAlt}']`
-      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = 'block')
+      // document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'none')
+      const currentImgAlt = this.currentVariant.featured_media.alt;
+      const thumbnailSelector = `[thumbnail-alt = '${currentImgAlt}']`;
+      thumbnailEIs.forEach(img => img.style.display = 'none');
+      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = ''); // '' instead of 'block'
     } else {
       // show all thumbnails
-      document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'block')
+      // document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'block')
+      thumbnailEIs.forEach(img => img.style.display = ''); // '' instead of 'block'
     }
   }
 
