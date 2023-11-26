@@ -966,7 +966,7 @@ class VariantSelects extends HTMLElement {
     this.removeErrorMessage();
     this.updateVariantStatuses();
 
-    this.filterImgVariant();
+    this.filterImageVariant();
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
@@ -980,21 +980,17 @@ class VariantSelects extends HTMLElement {
     }
   }
 
-  filterImgVariant() {
-    console.log("thumbnail updated", this.currentVariant);
-    const thumbnailEIs = document.querySelectorAll('[thumbnail-alt]');
+  filterImageVariant() {
+    // console.log("thumbnail updated", this.currentVariant); // debug statement
     if (this.currentVariant.featured_media && this.currentVariant.featured_media.alt) {
       // show only the thumbnails for the selected color
-      // [thumbnail-alt = 'red']
-      // document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'none')
-      const currentImgAlt = this.currentVariant.featured_media.alt;
-      const thumbnailSelector = `[thumbnail-alt = '${currentImgAlt}']`;
-      thumbnailEIs.forEach(img => img.style.display = 'none');
-      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = ''); // '' instead of 'block'
+      document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'none');
+      const currentImageAlt = this.currentVariant.featured_media.alt;
+      const thumbnailSelector = `[thumbnail-alt = '${currentImageAlt}']`;
+      document.querySelectorAll(thumbnailSelector).forEach(img => img.style.display = 'block');
     } else {
       // show all thumbnails
-      // document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'block')
-      thumbnailEIs.forEach(img => img.style.display = ''); // '' instead of 'block'
+      document.querySelectorAll('[thumbnail-alt]').forEach(img => img.style.display = 'block');
     }
   }
 
