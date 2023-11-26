@@ -31,6 +31,7 @@
       role="document"
       aria-label="{{ 'products.modal.label' | t }}"
       tabindex="0"
+      variant-images="{{ variant_images }}"
     >
       {%- liquid
         if product.selected_or_first_available_variant.featured_media != null
