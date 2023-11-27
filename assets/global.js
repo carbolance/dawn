@@ -980,6 +980,26 @@ class VariantSelects extends HTMLElement {
     }
   }
 
+  updateProductModal() {
+    // const selected_variant = getSelectedVariant();
+    const productMediaModal = document.getElementById('product-media-modal');
+    const productMediaModalSlides = productMediaModal.querySelectorAll('.product-media-modal__slide');
+
+    // hide all slides
+    productMediaModalSlides.forEach((slide) => {
+      slide.classList.add('hidden');
+    });
+
+    // show the slide for the selected variant's image
+    if (this.currentVariant.image) {
+      const variantImageSlide = productMediaModal.querySelector(`[data-media-id="${this.currentVariant.image.id}"]`);
+      variantImageSlide.classList.remove('hidden');
+    } else {
+      const featuredImageSlide = productMediaModal.querySelector(`[data-media-id="${this.currentVariant.featured_media.id}"]`);
+      featuredImageSlide.classList.remove('hidden');
+    }
+  }
+
   filterImageVariant() {
     // console.log("thumbnail updated", this.currentVariant); // debug statement
     if (this.currentVariant.featured_media && this.currentVariant.featured_media.alt) {
