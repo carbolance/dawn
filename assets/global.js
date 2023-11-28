@@ -1020,7 +1020,8 @@ class VariantSelects extends HTMLElement {
     const modalContent = document.querySelector(`#ProductModal-${this.dataset.section} .product-media-modal__content`);
     if (!modalContent) return;
     const newMediaModal = modalContent.querySelector(`[data-media-id="${this.currentVariant.featured_media.id}"]`);
-    modalContent.prepend(newMediaModal);
+    // modalContent.prepend(newMediaModal);
+    modalContent.replaceChild(newMediaModal, modalContent.firstChild) // simply replace the existing content to only contain the active media slide
   }
 
   updateURL() {
