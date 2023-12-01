@@ -51,6 +51,13 @@
           "settings": {
           }
         },
+        "2ddc8d61-6604-404f-adc5-827d1bef6286": {
+          "type": "popup",
+          "settings": {
+            "text": "Size Guide",
+            "page": "{{ product.metafields.custom.size_guide.value }}"
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
@@ -112,6 +119,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
+        "2ddc8d61-6604-404f-adc5-827d1bef6286",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
@@ -125,7 +133,7 @@
         "media_size": "medium",
         "constrain_to_viewport": true,
         "media_fit": "contain",
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "stacked",
         "media_position": "left",
         "image_zoom": "lightbox",
         "mobile_thumbnails": "hide",
