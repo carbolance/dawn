@@ -2,6 +2,15 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "3061261a-17d4-47ee-8670-e25b8db9eb86": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% assign image_url = 'https:\/\/cdn.shopify.com\/s\/files\/1\/0796\/9528\/2482\/files\/Carbolance_Logo_Type_Black.svg?v=1696940555' %}\n{% assign image_alt = 'Carbolance logo type black' %}\n{% assign image_link = '#' %}\n\n<section class=\"image-banner\">\n  <a href=\"{{ image_link }}\">\n    <object data=\"{{ image_url }}\" alt=\"{{ image_alt }}\" type=\"image\/svg+xml\" class=\"image-banner__image\">\n      <img src=\"{{ image_url }}\" alt=\"{{ image_alt }}\" class=\"image-banner__fallback\">\n    <\/object>\n  <\/a>\n<\/section>\n\n<style>\n  .image-banner {\n    width: 100%;\n    height: auto;\n    background-color: #ffffff;\n    text-align: center;\n  }\n\n  .image-banner__image {\n    width: 360px; \/* Set desired image width *\/\n    height: auto;\n    margin: 0 auto; \/* Center image horizontally *\/\n  }\n\n  .image-banner__fallback {\n    display: none;\n  }\n<\/style>",
+        "color_scheme": "",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
@@ -16,6 +25,7 @@
       "block_order": [
         "announcement-bar-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-1",
         "show_line_separator": true,
@@ -46,6 +56,7 @@
     }
   },
   "order": [
+    "3061261a-17d4-47ee-8670-e25b8db9eb86",
     "announcement-bar",
     "header"
   ]
