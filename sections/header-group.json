@@ -8,7 +8,7 @@
         "custom_liquid": "{% assign image_url = 'https:\/\/cdn.shopify.com\/s\/files\/1\/0796\/9528\/2482\/files\/Carbolance_Logo_Type_Black.svg?v=1696940555' %}\n{% assign image_alt = 'Carbolance logo type black' %}\n{% assign image_link = '#' %}\n\n<section class=\"image-banner\">\n  <a href=\"{{ image_link }}\">\n    <object data=\"{{ image_url }}\" alt=\"{{ image_alt }}\" type=\"image\/svg+xml\" class=\"image-banner__image\">\n      <img src=\"{{ image_url }}\" alt=\"{{ image_alt }}\" class=\"image-banner__fallback\">\n    <\/object>\n  <\/a>\n<\/section>\n\n<style>\n  .image-banner {\n    width: 100%;\n    height: auto;\n    background-color: #ffffff;\n    text-align: center;\n  }\n\n  .image-banner__image {\n    width: 300px; \/* Set desired image width *\/\n    height: auto;\n    margin: 0 auto; \/* Center image horizontally *\/\n  }\n\n  .image-banner__fallback {\n    display: none;\n  }\n<\/style>",
         "color_scheme": "",
         "padding_top": 12,
-        "padding_bottom": 12
+        "padding_bottom": 8
       }
     },
     "announcement-bar": {
