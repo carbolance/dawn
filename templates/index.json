@@ -26,6 +26,7 @@
         "heading",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/beautiful-day-at-the-beach.jpg",
         "image_overlay_opacity": 40,
@@ -73,6 +74,7 @@
         "text",
         "button"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
