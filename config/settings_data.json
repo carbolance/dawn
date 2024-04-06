@@ -2,13 +2,14 @@
   "current": {
     "logo": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
     "logo_width": 90,
+    "favicon": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
     "type_header_font": "assistant_n4",
     "heading_scale": 100,
     "type_body_font": "assistant_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 0,
-    "spacing_grid_horizontal": 8,
+    "spacing_grid_horizontal": 12,
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
@@ -165,13 +166,13 @@
       },
       "scheme-4": {
         "settings": {
-          "background": "{{ shop.brand.colors.primary[0].background }}",
+          "background": "{{ shop.brand.colors.primary[0].foreground }}",
           "background_gradient": "",
           "text": "{{ shop.brand.colors.secondary[1].background }}",
           "button": "{{ shop.brand.colors.secondary[1].background }}",
-          "button_label": "{{ shop.brand.colors.primary[0].background }}",
+          "button_label": "{{ shop.brand.colors.primary[0].foreground }}",
           "secondary_button_label": "{{ shop.brand.colors.secondary[1].background }}",
-          "shadow": "{{ shop.brand.colors.primary[0].background }}"
+          "shadow": "{{ shop.brand.colors.primary[0].foreground }}"
         }
       },
       "scheme-5": {
