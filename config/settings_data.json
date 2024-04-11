@@ -113,6 +113,14 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
+    "checkout_logo_image": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "small",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_color": "#ffffff",
+    "checkout_accent_color": "#0044bb",
+    "checkout_button_color": "#0044bb",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
