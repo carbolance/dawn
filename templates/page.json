@@ -17,17 +17,10 @@
             "heading": "About",
             "heading_size": "h0"
           }
-        },
-        "text_AaTwKT": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Carbolance makes premium essentials for the modern world from sustainable materials.<br\/><br\/>Nature is our ultimate inspiration & our mission is to support it.<br\/><br\/>We celebrate our culture & connection to nature, a fundamental heritage shared by everyone.<br\/><br\/>Our mantra is to \"create our future\", a way of saying that we can make ourselves & the world around us better.<br\/><br\/>We hope to share this journey with you.<\/p>"
-          }
         }
       },
       "block_order": [
-        "heading_mRezJM",
-        "text_AaTwKT"
+        "heading_mRezJM"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -35,12 +28,35 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
+    "rich_text_DhJmH9": {
+      "type": "rich-text",
+      "blocks": {
+        "text_3h6gzF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Carbolance makes premium essentials for the modern world from sustainable materials.<br\/><br\/>Nature is our ultimate inspiration & our mission is to support it.<br\/><br\/>We celebrate our culture & connection to nature, a fundamental heritage shared by everyone.<br\/><br\/>Our mantra is to \"create our future\", a way of saying that we can make ourselves & the world around us better.<br\/><br\/>We hope to share this journey with you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_3h6gzF"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
         "padding_bottom": 24
       }
     }
   },
   "order": [
     "main",
-    "rich_text_MyfnBN"
+    "rich_text_MyfnBN",
+    "rich_text_DhJmH9"
   ]
 }
