@@ -60,12 +60,30 @@
           "settings": {
           }
         },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sizing Details",
+            "icon": "shirt",
+            "content": "<ul><li>Unisex fit that runs true to size for men & one size larger for women<\/li><li>Size down for a tighter, tailored fit<\/li><li>Size up for a looser, relaxed fit<\/li><\/ul>",
+            "page": ""
+          }
+        },
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Materials",
-            "icon": "shirt",
+            "icon": "plant",
             "content": "<ul><li>25% Modal<\/li><li>25% Organic Cotton<\/li><li>50% Recycled Polyester<\/li><\/ul>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Care Instructions",
+            "icon": "heart",
+            "content": "<ul><li>Machine wash cold (warm is acceptable)<\/li><li>Tumble dry low (medium is acceptable)<\/li><li>Do not bleach<\/li><li>Do not iron<\/li><li>Do not dry clean<\/li><\/ul>",
             "page": ""
           }
         },
@@ -76,25 +94,6 @@
             "heading": "Shipping & Returns",
             "icon": "truck",
             "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Dimensions",
-            "icon": "ruler",
-            "content": "",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Care Instructions",
-            "icon": "heart",
-            "content": "<ul><li>Machine wash cold (warm is acceptable)<\/li><li>Tumble dry low (medium is acceptable)<\/li><li>Do not bleach<\/li><li>Do not iron<\/li><li>Do not dry clean<\/li><\/ul>",
             "page": ""
           }
         },
@@ -115,10 +114,10 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "collapsible-row-0",
-        "collapsible-row-1",
         "collapsible-row-2",
+        "collapsible-row-0",
         "collapsible-row-3",
+        "collapsible-row-1",
         "share"
       ],
       "settings": {
