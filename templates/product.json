@@ -62,11 +62,10 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
             "heading": "Materials",
-            "icon": "leather",
-            "content": "",
+            "icon": "shirt",
+            "content": "<ul><li>25% Modal<\/li><li>25% Organic Cotton<\/li><li>50% Recycled Polyester<\/li><\/ul>",
             "page": ""
           }
         },
@@ -95,7 +94,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<p>Machine wash cold (warm is acceptable)<\/p><p>Tumble dry low (medium is acceptable)<\/p><p>Do not bleach<\/p><p>Do not iron<\/p><p>Do not dry clean<\/p>",
+            "content": "<ul><li>Machine wash cold (warm is acceptable)<\/li><li>Tumble dry low (medium is acceptable)<\/li><li>Do not bleach<\/li><li>Do not iron<\/li><li>Do not dry clean<\/li><\/ul>",
             "page": ""
           }
         },
