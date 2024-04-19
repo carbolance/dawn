@@ -12,6 +12,7 @@
         },
         "heading_gWVHV8": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Premium Essentials for the Modern World",
             "heading_size": "h2"
@@ -37,7 +38,7 @@
         "heading_wCD8xt": {
           "type": "heading",
           "settings": {
-            "heading": "Featured",
+            "heading": "Essentials",
             "heading_size": "h0"
           }
         }
