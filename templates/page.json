@@ -8,6 +8,29 @@
         "padding_bottom": 24
       }
     },
+    "rich_text_KHM67z": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KRQfKC": {
+          "type": "heading",
+          "settings": {
+            "heading": "CARBOLANCE",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KRQfKC"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "rich_text_MyfnBN": {
       "type": "rich-text",
       "blocks": {
@@ -27,7 +50,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 12,
         "padding_bottom": 12
       }
     },
@@ -50,12 +73,13 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 12,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     }
   },
   "order": [
     "main",
+    "rich_text_KHM67z",
     "rich_text_MyfnBN",
     "rich_text_DhJmH9"
   ]

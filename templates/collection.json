@@ -9,6 +9,29 @@
         "color_scheme": "scheme-1"
       }
     },
+    "rich_text_zxa8VP": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Rn6JkM": {
+          "type": "heading",
+          "settings": {
+            "heading": "CARBOLANCE",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Rn6JkM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "rich_text_YpCn8q": {
       "type": "rich-text",
       "blocks": {
@@ -28,7 +51,7 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 24,
+        "padding_top": 12,
         "padding_bottom": 12
       }
     },
@@ -49,12 +72,13 @@
         "enable_sorting": true,
         "columns_mobile": "2",
         "padding_top": 12,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     }
   },
   "order": [
     "banner",
+    "rich_text_zxa8VP",
     "rich_text_YpCn8q",
     "product-grid"
   ]

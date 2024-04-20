@@ -9,19 +9,10 @@
             "heading": "CARBOLANCE",
             "heading_size": "h0"
           }
-        },
-        "heading_gWVHV8": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Premium Essentials for the Modern World",
-            "heading_size": "h2"
-          }
         }
       },
       "block_order": [
-        "heading_KMx9VN",
-        "heading_gWVHV8"
+        "heading_KMx9VN"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -80,7 +71,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 12,
-        "padding_bottom": 24
+        "padding_bottom": 12
       }
     }
   },
