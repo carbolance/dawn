@@ -239,7 +239,7 @@
         "products_to_show": 5,
         "columns_desktop": 5,
         "color_scheme": "scheme-2",
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": true,
         "show_vendor": false,
