@@ -87,12 +87,23 @@
         "padding_top": 12,
         "padding_bottom": 24
       }
+    },
+    "page_arVH4y": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_KHM67z",
     "rich_text_MyfnBN",
-    "rich_text_DhJmH9"
+    "rich_text_DhJmH9",
+    "page_arVH4y"
   ]
 }
