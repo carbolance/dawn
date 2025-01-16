@@ -1,8 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
+    "logo": "shopify://shop_images/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
     "logo_width": 60,
-    "favicon": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
+    "favicon": "shopify://shop_images/Carbolance_Logo_Mark_White_Inner_Outline_Black_Outer_Outline.svg",
     "type_header_font": "assistant_n4",
     "heading_scale": 120,
     "type_body_font": "assistant_n4",
@@ -99,10 +108,10 @@
     "sale_badge_color_scheme": "scheme-5",
     "sold_out_badge_color_scheme": "scheme-3",
     "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/instagram.com\/carbolance",
-    "social_youtube_link": "https:\/\/www.youtube.com\/@carbolance",
-    "social_tiktok_link": "https:\/\/www.tiktok.com\/@carbolance",
-    "social_twitter_link": "https:\/\/twitter.com\/carbolance",
+    "social_instagram_link": "https://instagram.com/carbolance",
+    "social_youtube_link": "https://www.youtube.com/@carbolance",
+    "social_tiktok_link": "https://www.tiktok.com/@carbolance",
+    "social_twitter_link": "https://twitter.com/carbolance",
     "social_snapchat_link": "",
     "social_pinterest_link": "",
     "social_tumblr_link": "",
@@ -115,7 +124,7 @@
     "show_vendor": false,
     "show_cart_note": false,
     "cart_drawer_collection": "",
-    "checkout_logo_image": "shopify:\/\/shop_images\/Carbolance_Logo_Mark_and_Type_White_Text_1200x628_3874bfcd-5645-42dd-b69a-514353b4fdde.svg",
+    "checkout_logo_image": "shopify://shop_images/Carbolance_Logo_Mark_and_Type_White_Text_1200x628_3874bfcd-5645-42dd-b69a-514353b4fdde.svg",
     "checkout_logo_position": "center",
     "checkout_logo_size": "medium",
     "checkout_body_background_color": "#ffffff",
@@ -135,22 +144,19 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
-      "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "733389323033596483": {
-        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "type": "shopify://apps/okendo-product-reviews-ugc/blocks/theme-settings/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
         "disabled": true,
         "settings": {
           "show_preview_data": true
         }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": true,
+        "settings": {}
       }
     },
     "color_schemes": {
