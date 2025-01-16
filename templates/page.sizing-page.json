@@ -22,6 +22,7 @@
       "blocks": {
         "heading_KRQfKC": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "CARBOLANCE",
             "heading_size": "h0"
@@ -45,6 +46,7 @@
       "blocks": {
         "heading_mRezJM": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "About",
             "heading_size": "h1"
@@ -68,6 +70,7 @@
       "blocks": {
         "text_3h6gzF": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Carbolance believes that life is about pursuing our dreams & always getting better. We imagine a future of living in harmony with one another & nature.</p><p>Carbolance delivers premium essentials for the modern world. With a unique blend of sustainable materials, we seek to balance comfort & performance. We provide value to our customers in a way that respects both our people & our planet.</p><p>Nature is our fundamental heritage & ultimate inspiration. We leverage creative culture to honor nature & promote sustainability. With a mantra of \"create our future\", we focus on our purpose of bettering ourselves & the world around us.</p><p>As we tell our story, we aspire to build a community for those who believe in our vision. We hope to share this journey with you.</p>"
           }
