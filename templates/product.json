@@ -40,7 +40,7 @@
           "type": "popup",
           "settings": {
             "text": "Size Guide",
-            "page": "{{ product.metafields.custom.size_guide.value }}"
+            "page": "t-shirt-size-chart"
           }
         },
         "variant_picker": {
