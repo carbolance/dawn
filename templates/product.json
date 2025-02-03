@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Sizing Details",
             "icon": "shirt",
-            "content": "<ul><li>Unisex fit that runs true to size for men & one size larger for women (see Size Guide above)</li><li>Size down for a tighter, tailored fit</li><li>Size up for a looser, relaxed fit</li></ul>",
+            "content": "<ul><li>Unisex fit runs true to size (see Size Guide above)</li><li>Size down for a tight, tailored fit</li><li>Size up for a loose, relaxed fit</li></ul>",
             "page": ""
           }
         },
