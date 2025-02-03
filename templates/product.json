@@ -12,23 +12,23 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>{{ product.title }}</strong><strong>{{ product.metafields.descriptors.subtitle.value }}</strong>",
+            "text_style": "subtitle"
+          }
+        },
         "vendor": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {}
-        },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.title }}{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },
@@ -88,7 +88,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<ul><li>Machine wash cold (warm is acceptable)</li><li>Tumble dry low (medium is acceptable)</li><li>Do not bleach</li><li>Do not iron</li><li>Do not dry clean</li></ul>",
+            "content": "<ul><li>Machine wash cold</li><li>Tumble dry low</li><li>Do not bleach</li><li>Do not iron</li><li>Do not dry clean</li></ul>",
             "page": ""
           }
         },
@@ -123,9 +123,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
+        "vendor",
         "price",
         "popup_PWUbhM",
         "variant_picker",
