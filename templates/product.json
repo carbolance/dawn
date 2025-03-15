@@ -1,48 +1,46 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {}
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>{{ product.title }}</strong><strong>{{ product.metafields.descriptors.subtitle.value }}</strong>",
+            "text_style": "subtitle"
+          }
+        },
         "vendor": {
           "type": "text",
           "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-          }
-        },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.title }}{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "popup_PWUbhM": {
           "type": "popup",
           "settings": {
             "text": "Size Guide",
-            "page": "short-sleeve-t-shirt-size-chart"
+            "page": "{{ product.metafields.custom.size_guide.value }}"
           }
         },
         "variant_picker": {
@@ -54,8 +52,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -66,15 +63,14 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sizing Details",
             "icon": "shirt",
-            "content": "<ul><li>Unisex fit that runs true to size for men & one size larger for women (see Size Guide above)<\/li><li>Size down for a tighter, tailored fit<\/li><li>Size up for a looser, relaxed fit<\/li><\/ul>",
+            "content": "<ul><li>Unisex fit runs true to size (see Size Guide above)</li><li>Size down for a tight, tailored fit</li><li>Size up for a loose, relaxed fit</li></ul>",
             "page": ""
           }
         },
@@ -83,7 +79,7 @@
           "settings": {
             "heading": "Materials",
             "icon": "plant",
-            "content": "<ul><li>25% Modal<\/li><li>25% Organic Cotton<\/li><li>50% Recycled Polyester<\/li><\/ul>",
+            "content": "<ul><li>25% Sustainable Modal</li><li>25% Organic Cotton</li><li>50% Recycled Polyester</li></ul>",
             "page": ""
           }
         },
@@ -92,7 +88,7 @@
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
-            "content": "<ul><li>Machine wash cold (warm is acceptable)<\/li><li>Tumble dry low (medium is acceptable)<\/li><li>Do not bleach<\/li><li>Do not iron<\/li><li>Do not dry clean<\/li><\/ul>",
+            "content": "<ul><li>Machine wash cold</li><li>Tumble dry low</li><li>Do not bleach</li><li>Do not iron</li><li>Do not dry clean</li></ul>",
             "page": ""
           }
         },
@@ -127,9 +123,9 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "caption",
+        "vendor",
         "price",
         "popup_PWUbhM",
         "variant_picker",
@@ -166,7 +162,7 @@
           "type": "column",
           "settings": {
             "title": "Free Shipping (USA)",
-            "text": "<p>Quick Delivery (2-5 Business Days)<\/p>",
+            "text": "<p>Quick Delivery (2-5 Business Days)</p>",
             "link_label": "",
             "link": ""
           }
@@ -175,7 +171,7 @@
           "type": "column",
           "settings": {
             "title": "100% Happiness Guarantee",
-            "text": "<p>30-Day Hassle-Free Exchanges & Returns<\/p>",
+            "text": "<p>30-Day Hassle-Free Exchanges & Returns</p>",
             "link_label": "",
             "link": ""
           }
@@ -206,7 +202,7 @@
       "type": "apps",
       "blocks": {
         "okendo_reviews_widget_XdpMDD": {
-          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "type": "shopify://apps/okendo/blocks/reviews-widget/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
             "product": "{{product}}",
             "widget_type": "reviews_widget"
