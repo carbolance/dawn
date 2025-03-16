@@ -97,6 +97,49 @@
         "padding_top": 8,
         "padding_bottom": 8
       }
+    },
+    "multicolumn_iNhEUn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_UtbBkm": {
+          "type": "column",
+          "settings": {
+            "title": "Free Shipping (USA)",
+            "text": "<p>Quick Delivery (2-5 Business Days)</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_DxDWbW": {
+          "type": "column",
+          "settings": {
+            "title": "100% Happiness Guarantee",
+            "text": "<p>30-Day Hassle-Free Exchanges & Returns</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_UtbBkm",
+        "column_DxDWbW"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
+        "columns_desktop": 2,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -104,6 +147,7 @@
     "rich_text_YpCn8q",
     "product-grid",
     "banner",
-    "rich_text_X4J9gm"
+    "rich_text_X4J9gm",
+    "multicolumn_iNhEUn"
   ]
 }
